@@ -58,18 +58,5 @@ let playerScore = 0;
 let computerScore = 0;
 
 function game(){
-    let result;
-    for(let i = 0; i < 5; i++){
-        playRound();
-        if(playerScore > computerScore) {
-            result = "Your score is "+playerScore+". The computer's score is "+computerScore+". You Win!";
-        }
-        else if(playerScore < computerScore) {
-            result = "Your score is "+playerScore+". The computer's score is "+computerScore+". You Lose.";
-        }
-        else {
-            result = "Your score is "+playerScore+". The computer's score is "+computerScore+". It's a Draw.";
-        }
-    }
-    return result;
+    
 }
