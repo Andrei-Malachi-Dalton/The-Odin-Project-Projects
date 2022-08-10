@@ -59,3 +59,16 @@ div.style.cssText = 'color: blue; background: white;';
 
 div.setAttribute('style', 'color: blue; background: white;');
 //adds several style rules
+
+/* Events */
+/* Events are actions that occur on your webpage such as mouse-clicks or keypresses.
+    There are three primary ways to go about using Events, you can set the "on_event_" property on the DOM object in your JavaScript, or you can attach
+    event listeners to the nodes in your JavaScript. Event listeners are the preferred method.*/
+
+    //Using 3 methods to do the same thing
+    //<button onclick="alert('Hello World')">Click Me</button>
+    //This is less ideal because it clutters the HTML with JavaScript
+
+    //Method 2
+    // the HTML file:
+    
